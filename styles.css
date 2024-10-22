@@ -1,0 +1,55 @@
+nav {
+  padding: 10px;
+  background-color: #1B232C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  /* Alinea verticalmente el contenido dentro del nav */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  /* Ajusta el tamaño de la letra */
+  display: inline-block;
+  text-align: center;
+  /* Centra el texto dentro de los enlaces */
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+.nissan-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+nav .lni {
+  font-size: 40px;
+  margin: 10px;
+  color: #ffffff;
+}
+
+#toogle-btn {
+  background-color: transparent;
+  border: 0px;
+}
